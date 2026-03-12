@@ -1,0 +1,26 @@
+body{
+  font-family: Arial;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+h1{
+  letter-spacing: 10px;
+}
+
+#countries-container{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.country{
+  background: white;
+  border: 1px solid #ddd;
+  padding: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
